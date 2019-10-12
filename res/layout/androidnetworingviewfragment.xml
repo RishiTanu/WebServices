@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:id="@+id/retrofit"
+    android:background="@color/white"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/readjson_networking"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_40sdp"
+        android:textSize="@dimen/_17sdp"
+        android:textAllCaps="false"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/networkreadjson" />
+
+    <Button
+        android:id="@+id/readarray_networking"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:layout_below="@+id/readjson_networking"
+        android:textSize="@dimen/_17sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:text="@string/networkreadarray" />
+
+    <Button
+        android:id="@+id/networking_get"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_below="@+id/readarray_networking"
+        android:textSize="@dimen/_17sdp"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:text="@string/networkget" />
+
+    <Button
+        android:id="@+id/networking_post"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_40sdp"
+        android:textSize="@dimen/_17sdp"
+        android:textAllCaps="false"
+        android:text="@string/networkpost"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/networking_get"
+        android:layout_marginTop="@dimen/_40sdp"/>
+
+</RelativeLayout>

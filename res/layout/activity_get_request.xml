@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AndroidNetworking.GetRequest">
+
+
+    <TextView
+        android:id="@+id/bid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_18sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_centerHorizontal="true"
+        android:text="BookingId" />
+
+
+    <TextView
+        android:id="@+id/dismbno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_18sdp"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:layout_centerHorizontal="true"
+        android:text="DistributorMbNo" />
+
+    <ImageView
+        android:id="@+id/bpage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/_18sdp"
+        android:layout_marginBottom="250dp"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <TextView
+        android:id="@+id/stdpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_180sdp"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/_18sdp"
+        android:text="Studio Password" />
+
+    <TextView
+        android:id="@+id/stdname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_220sdp"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/_18sdp"
+        android:text="StudioName" />
+
+</RelativeLayout>

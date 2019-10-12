@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_alignParentTop="true"
+        android:id="@+id/top"
+                android:layout_height="@dimen/_50sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="22sp"
+            android:text="WebServices"/>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/top"
+        android:id="@+id/container"
+        android:layout_above="@+id/bottom"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:id="@+id/volley"
+                android:textAllCaps="false"
+                android:text="Volley Services"
+                android:layout_marginTop="@dimen/_20sdp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:text="Asyntask Class"
+                android:id="@+id/asyn"
+                android:textAllCaps="false"
+                android:layout_below="@+id/volley"
+                android:layout_marginTop="@dimen/_20sdp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:id="@+id/retrofit"
+                android:layout_below="@+id/asyn"
+                android:text="Retrofit Service"
+                android:textAllCaps="false"
+                android:layout_marginTop="@dimen/_20sdp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:id="@+id/androidnetworking"
+                android:layout_below="@+id/retrofit"
+                android:text="Android Network"
+                android:textAllCaps="false"
+                android:layout_marginTop="@dimen/_20sdp"/>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_4sdp"
+                android:layout_margin="@dimen/_14sdp"
+                android:id="@+id/v"
+                android:background="@color/colorPrimaryDark"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:layout_below="@+id/androidnetworking"/>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:id="@+id/glide"
+                android:layout_below="@+id/v"
+                android:text="Glide Service"
+
+                android:textAllCaps="false"
+                android:layout_marginTop="@dimen/_20sdp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:id="@+id/picaso"
+                android:layout_below="@+id/glide"
+                android:text="Picasso"
+                android:textAllCaps="false"
+                android:layout_marginTop="@dimen/_20sdp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:id="@+id/universal"
+                android:layout_below="@+id/picaso"
+                android:text="Universal Image Loader"
+                android:textAllCaps="false"
+                android:layout_marginTop="@dimen/_20sdp"/>
+
+
+        </RelativeLayout>
+
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bottom"
+        android:layout_height="@dimen/_50sdp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="22sp"
+            android:text="ImageServices Liabraries"/>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">WebServices</string>
+    <string name="uppertest">Work WebService in 5 Ways</string>
+
+    <string name="volget">VolleyGet</string>
+    <string name="volpost">VolleyPost</string>
+    <string name="volreadjson">Read Json</string>
+    <string name="volreadarray">Read Array</string>
+
+    <string name="retget">RetrofitGet</string>
+    <string name="retpost">RetrofitPost</string>
+    <string name="retreadjson">Retrofit Json</string>
+    <string name="retreadarray">Retrofit Array</string>
+
+    <string name="asynget">AsyntaskGet</string>
+    <string name="asynpost">AsyntaskPost</string>
+    <string name="asynreadjson">Asyntask Json</string>
+    <string name="asynreadarray">Asyntask Array</string>
+
+    <string name="networkget">NetworkGet</string>
+    <string name="networkpost">NetworkPost</string>
+    <string name="networkreadjson">Network Json</string>
+    <string name="networkreadarray">Network Array</string>
+
+    <string name="jsonget">JsonGet</string>
+    <string name="jsonpost">JsonPost</string>
+    <string name="jsonreadjson">Json Json</string>
+    <string name="jsonreadarray">Json Array</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

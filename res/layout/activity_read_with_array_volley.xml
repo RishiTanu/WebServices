@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Volley.Readarray_volley">
+
+
+    <TextView
+        android:id="@+id/folname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_140sdp"
+        android:layout_centerHorizontal="true"
+        android:text="Folder Name"/>
+
+    <TextView
+        android:id="@+id/tvimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Images"
+        android:textSize="@dimen/_20sdp"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/selectimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected Images"
+        android:textSize="@dimen/_20sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_140sdp"/>
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/jsonobject"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:textSize="@dimen/_17sdp"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:text="JsonObject_Volley" />
+
+    <Button
+        android:id="@+id/jsonarray"
+        android:layout_width="wrap_content"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_17sdp"
+        android:layout_below="@+id/jsonobject"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:text="JsonArray_Volley" />
+
+    <Button
+        android:id="@+id/stringrequest"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_40sdp"
+        android:textAllCaps="false"
+        android:layout_below="@+id/jsonarray"
+        android:textSize="@dimen/_17sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:text="StringRequest_Volley" />
+
+    <Button
+        android:id="@+id/imagerequest"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_40sdp"
+        android:textSize="@dimen/_17sdp"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:text="ImageRequest_Volley"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_below="@+id/stringrequest" />
+
+</RelativeLayout>
